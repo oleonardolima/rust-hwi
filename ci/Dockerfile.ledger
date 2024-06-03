@@ -1,4 +1,4 @@
-FROM ghcr.io/ledgerhq/speculos:sha-f430e51
+FROM ghcr.io/ledgerhq/speculos:0.8.3
 
 RUN apt-get update
 RUN apt-get install wget -y
